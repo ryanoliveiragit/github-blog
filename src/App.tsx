@@ -1,16 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { ButtonSearch } from "./components/buttonSearch"
 
-function App() {
-  const [count, setCount] = useState(0)
+export const App = () => {
 
   return (
-    <>
-      <h1>teste</h1>
-    </>
+      <><h1>oi mundao</h1><ButtonSearch /></>
   )
 }
 
-export default App
